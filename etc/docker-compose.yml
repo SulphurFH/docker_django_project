@@ -6,6 +6,9 @@ survey:
         - /home/data/docker/docker_django_project/project:/opt/django/project
         - /home/data/docker/docker_django_project/logs:/opt/django/logs
         - /home/data/docker/docker_django_project/venv:/opt/django/venv
+        - /home/python/.ssh:/root/.ssh
+    dns:
+        - 192.168.1.109
     ports:
-        - "8100:8000"
+        - "8000:8000"
 
