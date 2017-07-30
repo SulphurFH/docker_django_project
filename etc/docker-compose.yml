@@ -1,5 +1,5 @@
 docker_django_project:
-    image: fanghao/ubuntu-django
+    image: fanghao/ubuntu-django:1.0
     container_name: docker_django_project
     restart: always
     volumes:
