@@ -1,4 +1,4 @@
-survey:
+docker_django_project:
     image: fanghao/ubuntu-django
     container_name: docker_django_project
     restart: always
